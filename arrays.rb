@@ -16,4 +16,8 @@ puts age[2]
 #This lists the first entry in the height array
 puts height[0]
 #This lists the last entry of the friends array
-puts friends[3]
+puts friends[2]
+#This adds ages 33, 27, 28 starting at the 3rd value index position and prints values before and after
+puts age
+age.insert(2, 33, 27, 28)
+print age
