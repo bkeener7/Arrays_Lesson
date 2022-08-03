@@ -11,3 +11,9 @@ age.push(30)
 height.shift
 #This call adds true to the start of the `lives_Texas` array
 lives_Texas.unshift (true)
+#This lists the 3rd entry in age group
+puts age[2]
+#This lists the first entry in the height array
+puts height[0]
+#This lists the last entry of the friends array
+puts friends[3]
